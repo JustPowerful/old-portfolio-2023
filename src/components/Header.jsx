@@ -3,7 +3,7 @@ const Header = ({ className }) => {
     <div className={`header-background grid md:grid-cols-2 ${className}`}>
       <div className="flex justify-center pt-36">
         <div className="px-5">
-          <h1 className="font-poppins text-4xl pb-3">
+          <h1 className="font-poppins text-2xl pb-3 md:leading-tight md:text-5xl">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
               Empowering Tomorrow:
             </span>{" "}

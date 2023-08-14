@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-4 fixed top-0 w-full">
+    <div className="flex justify-between p-4 fixed top-0 w-full backdrop-blur-md">
       <div className="logoTitle text-2xl select-none"> {"</DOUDECH>"} </div>
       <ul className="hidden gap-4 p-1 md:flex">
         <a href="#" className="anchor">
