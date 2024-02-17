@@ -1,3 +1,7 @@
+import Button from "./Button";
+
+import Image from "../assets/images/programmer.png";
+
 const Header = ({ className }) => {
   return (
     <div className={`header-background grid md:grid-cols-2 ${className}`}>
@@ -12,20 +16,18 @@ const Header = ({ className }) => {
             <br /> Solutions and Services
           </h1>
           <p className="font-poppins text-neutral-400 mt-2">
-            My journey revolves around creating software solutions using
-            different <br />
-            types of full stacks like MERN, PERN and Frameworks like Next.js and
-            Angular.{" "}
+            Our journey revolves around creating beautiful software solutions
+            using different <br />
+            types of web technologies. We are specialized in a lot of known
+            frameworks and techs.
           </p>
-          <button className="font-poppins bg-gradient-to-r from-cyan-400 to-purple-500 py-3 px-8 rounded-[20px] mt-6  hover:text-black hover:from-white hover:to-white">
-            explore more
-          </button>
+          <Button>explore more</Button>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <img
           className="w-full"
-          src="/images/header.png"
+          src={Image}
           alt="a man coding and select his own code resources."
         />
       </div>

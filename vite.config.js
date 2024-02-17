@@ -6,5 +6,9 @@ export default defineConfig({
   server: {
     host: true,
   },
+  build: {
+    outDir: "./build",
+  },
+  base: "/",
   plugins: [react()],
 });
